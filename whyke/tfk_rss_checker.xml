@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container version="2">
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/WhykeCodes/docker-templates/main/whyke/tfk_rss_checker.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
   <Name>tfk_rss_checker</Name>
   <Repository>tfk_rss_checker:latest</Repository>
+  <Description>
+  [b]Description[/b][br]
+  Just a private docker container that i run locally on my machine.
+  </Description>
   <Registry></Registry>
-  <Network>bridge</Network>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
   <Privileged>false</Privileged>
   <Data>
     
