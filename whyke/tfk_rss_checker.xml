@@ -5,21 +5,23 @@
   <Registry></Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
+  <Data>
+    
+    <!-- Configuration Volume Mapping -->
+    <Volume>
+      <HostDir>/mnt/user/appdata/mycustomapp/</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    
+    <!-- Download Path Volume Mapping -->
+    <Volume>
+      <HostDir>/mnt/user/downloads/</HostDir>
+      <ContainerDir>/downloads</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   
-  <!-- Configuration Volume Mapping -->
-  <Volume>
-    <HostDir>/mnt/user/appdata/mycustomapp/</HostDir>
-    <ContainerDir>/config</ContainerDir>
-    <Mode>rw</Mode>
-  </Volume>
-
-  <!-- Download Path Volume Mapping -->
-  <Volume>
-    <HostDir>/mnt/user/downloads/</HostDir>
-    <ContainerDir>/downloads</ContainerDir>
-    <Mode>rw</Mode>
-  </Volume>
-
   <!-- Environment Variables -->
   <Environment>
     <Variable>
