@@ -42,7 +42,7 @@
   <WebUI>http://[IP]:[PORT:8989]/</WebUI>
   <Icon>https://images4.imagebam.com/38/bc/d0/MEPH6Z8_o.png</Icon>
   <DonateText></DonateText>
-  <DonateLink</DonateLink>
+  <DonateLink></DonateLink>
   <DonateImg></DonateImg>
   <ExtraParams></ExtraParams>
 </Container>
