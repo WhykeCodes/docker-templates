@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL>https://raw.githubusercontent.com/WhykeCodes/docker-templates/main/whyke/tfk_rss_checker.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/WhykeCodes/docker-templates/main/whyke/tfk-rss-checker.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
   <Name>tfk-rss-checker</Name>
