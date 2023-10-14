@@ -3,8 +3,8 @@
   <TemplateURL>https://raw.githubusercontent.com/WhykeCodes/docker-templates/main/whyke/tfk_rss_checker.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
-  <Name>tfk_rss_checker</Name>
-  <Repository>tfk_rss_checker:latest</Repository>
+  <Name>tfk-rss-checker</Name>
+  <Repository>tfk-rss-checker:latest</Repository>
   <Description>
   [b]Description[/b][br]
   Just a private docker container that i run locally on my machine.
