@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>tfk_rss_checker</Name>
+  <Repository>tfk_rss_checker:latest</Repository>
+  <Registry></Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  
+  <!-- Configuration Volume Mapping -->
+  <Volume>
+    <HostDir>/mnt/user/appdata/mycustomapp/</HostDir>
+    <ContainerDir>/config</ContainerDir>
+    <Mode>rw</Mode>
+  </Volume>
+
+  <!-- Download Path Volume Mapping -->
+  <Volume>
+    <HostDir>/mnt/user/downloads/</HostDir>
+    <ContainerDir>/downloads</ContainerDir>
+    <Mode>rw</Mode>
+  </Volume>
+
+  <!-- Environment Variables -->
+  <Environment>
+    <Variable>
+      <Name>TZ</Name>
+      <Value>Etc/UTC</Value>
+    </Variable>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <WebUI>http://[IP]:[PORT:8989]/</WebUI>
+  <Icon>https://images4.imagebam.com/38/bc/d0/MEPH6Z8_o.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink</DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams></ExtraParams>
+</Container>
